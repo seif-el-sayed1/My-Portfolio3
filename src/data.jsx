@@ -14,6 +14,8 @@ import python from './assets/python.svg'
 import jwt from './assets/jwt.svg'
 import firebase from './assets/firebase.svg'
 import googleCloud from './assets/googleCloud.svg'
+import postgresql from './assets/postgresql.svg'
+import prisma from './assets/prisma.svg'
 import express from './assets/express.png'
 import socketio from "./assets/socketio.svg"
 import hotelBooking from './assets/hotelBooking.webp'
@@ -48,6 +50,8 @@ export const assets = {
     python,
     jwt,
     firebase,
+    postgresql,
+    prisma,
     socketio,
     googleCloud,
     hotelBooking,
@@ -359,7 +363,7 @@ export const backendSkills = [
         textColor: "#539E43"
     },
     {
-    label: "Express Js",
+        label: "Express Js",
         icon: assets.express,   
         bgColor: "#000000", 
         shadow: "0 0 20px rgba(0, 0, 0, 0.8)", 
@@ -371,6 +375,20 @@ export const backendSkills = [
         bgColor: "rgba(69, 161, 73, 0.15)",
         shadow: "0 0 20px rgba(69, 161, 73, 0.8)",
         textColor: "#47A248"    
+    },
+    {
+        label: "PostgreSQL",
+        icon: assets.postgresql,
+        bgColor: "rgba(51, 103, 145, 0.15)",
+        shadow: "0 0 20px rgba(51, 103, 145, 0.8)",
+        textColor: "#336791"
+    },
+    {
+        label: "Prisma",
+        icon: assets.prisma,
+        bgColor: "rgba(45, 55, 72, 0.15)",
+        shadow: "0 0 20px rgba(45, 55, 72, 0.8)",
+        textColor: "#2D3748"
     },
     {
         label: "Socket.IO",
