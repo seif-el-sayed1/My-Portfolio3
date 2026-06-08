@@ -32,6 +32,7 @@ import greenZone from './assets/greenZone.webp'
 import stadiumEye from './assets/stadiumEye.webp'
 import neuronWave from './assets/NeuronWave.webp'
 import chatApp from './assets/chatApp.webp'
+import medCare from './assets/medCare.webp'
 
 export const assets = {
     nextjs,
@@ -67,7 +68,8 @@ export const assets = {
     greenZone,
     stadiumEye,
     neuronWave,
-    chatApp
+    chatApp,
+    medCare
 }
 
 export const projects = [
@@ -280,6 +282,29 @@ export const projects = [
         github: "https://github.com/seif-el-sayed1/SocketIO-ChatApp-Backend",
         link: "https://chat-me-amber.vercel.app/",   
         demo: "https://drive.google.com/file/d/1VgwyLVsXeckYUY-6dWpfz4xcr9f1OYys/view?usp=sharing"
+    },
+    {
+        id: 15,
+        title: "(MedCare) Clinic Management System",
+        type: "Full Stack",
+        contribution: false,
+        repoPrivate: false,
+        projectPrivate: false,
+        inProgress: false,
+        description: "Comprehensive clinic management backend built with Node.js, Express, PostgreSQL, and Prisma. Features appointment booking, doctor scheduling, waiting lists, OTP authentication, role-based authorization, Paymob payment integration, Firebase notifications (FCM), PDF report generation, QR code check-in, ratings & reviews, automated cron jobs, and an analytics dashboard for managing clinic operations efficiently.",
+        image: assets.medCare,
+        skills: [
+            assets.node,
+            assets.express,
+            assets.postgresql,
+            assets.prisma,
+            assets.javascript,
+            assets.firebase,
+            assets.jwt
+        ],
+        github: "https://github.com/seif-el-sayed1/MedCare_Backend",
+        link: "",
+        demo: ""
     }
 
 ];
