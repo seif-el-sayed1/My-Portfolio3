@@ -75,96 +75,6 @@ export const assets = {
 export const projects = [
     {
         id: 1,
-        title: "Landing Page",
-        type: "Frontend",
-        contribution: false,
-        repoPrivate: false,
-        projectPrivate: false,
-        inProgress: false,
-        description: "A clean and fully responsive landing page built with HTML and CSS, optimized for all screen sizes and devices.",
-        image: assets.landingPage,
-        skills: [assets.css, assets.html],
-        github: "https://github.com/seif-el-sayed1/project_2_HTML-CSS",
-        link: "https://seif1.netlify.app/",
-        demo: ""
-    },
-    {
-        id: 2,
-        title: "Dashboard",
-        type: "Frontend",
-        contribution: false,
-        repoPrivate: false,
-        projectPrivate: false,
-        inProgress: false,
-        description: "Responsive dashboard website featuring project, profile, and settings sections. Designed for easy navigation and user interaction.",
-        image: assets.dashboard,
-        skills: [assets.css, assets.html],
-        github: "https://github.com/seif-el-sayed1/project_3_HTML-CSS",
-        link: "https://wheatherseif.netlify.app/",
-        demo: ""
-    },
-    {
-        id: 3,
-        title: "Weather App",
-        type: "Frontend",
-        contribution: false,
-        repoPrivate: false,
-        projectPrivate: false,
-        inProgress: false,
-        description: "Fetches real-time weather data from an API and displays it in a clean, user-friendly interface. Users can search by city and view detailed forecasts.",
-        image: assets.weatherApp,
-        skills: [assets.javascript, assets.css, assets.html],
-        github: "https://github.com/seif-el-sayed1/Weather-app",
-        link: "https://wheatherseif.netlify.app/",
-        demo: ""
-    },
-    {
-        id: 4,
-        title: "CRUD System",
-        type: "Frontend",
-        contribution: false,
-        repoPrivate: false,
-        projectPrivate: false,
-        inProgress: false,
-        description: "A simple CRUD system for managing user data. Includes create, read, update, and delete operations with an intuitive interface.",
-        image: assets.crudSystem,
-        skills: [assets.javascript, assets.css, assets.html],
-        github: "https://github.com/seif-el-sayed1/CRUD-system",
-        link: "https://crud-seif.netlify.app/",
-        demo: ""
-    },
-    {
-        id: 5,
-        title: "E-commerce Website",
-        type: "Frontend",
-        contribution: false,
-        repoPrivate: false,
-        projectPrivate: false,
-        inProgress: false,
-        description: "A complete e-commerce solution built with React, featuring user authentication, product browsing, and a dynamic shopping cart. Fully responsive and user-friendly.",
-        image: assets.eCommerce,
-        skills: [assets.react, assets.javascript, assets.bootstrap, assets.css, assets.html],
-        github: "https://github.com/seif-el-sayed1/E-Commerce-Project",
-        link: "https://seifstore.netlify.app/",
-        demo: "https://drive.google.com/file/d/1iOfnRHO2fDgg6p4PkND5hmv3frvptE6G/view"
-    },
-    {
-        id: 6,
-        title: "Authentication System",
-        type: "Full Stack",
-        contribution: false,
-        repoPrivate: false,
-        projectPrivate: false,
-        inProgress: false,
-        description: "A secure authentication system using JWT and password hashing. Includes email verification, password reset, user registration, login, and profile management.",
-        image: assets.authentication,
-        skills: [assets.node, assets.react, assets.javascript, assets.express, assets.mongo, assets.jwt, assets.bootstrap, assets.css, assets.html],
-        github: "https://github.com/seif-el-sayed1/Authentication-System",
-        link: "",
-        demo: "https://drive.google.com/file/d/1p-lKUyuLDfGe_eg07P4Dg4iMIB-rqJFr/view"
-    },
-    {
-        id: 7,
         title: "Food Ordering App",
         type: "Full Stack",
         contribution: false,
@@ -179,7 +89,7 @@ export const projects = [
         demo: "https://drive.google.com/file/d/1eQKkVL4a3iiROa3WdLa8HOySwRmjPHUn/view"
     },
     {
-        id: 8,
+        id: 2,
         title: "Hotel Booking App",
         type: "Full Stack",
         contribution: false,
@@ -194,7 +104,7 @@ export const projects = [
         demo: ""
     },
     {
-        id: 9,
+        id: 3,
         title: "Tech Zone Project",
         type: "Full Stack",
         contribution: false,
@@ -209,7 +119,7 @@ export const projects = [
         demo: "https://drive.google.com/file/d/1jPjVoeoPJV59Dvz1lREiKkXNyDNEe1-F/view?usp=drive_link"
     },
     {
-        id: 10,
+        id: 4,
         title: "OneFurever Application",
         type: "Backend",
         contribution: true,
@@ -224,7 +134,7 @@ export const projects = [
         demo: ""
     },
     {
-        id: 11,
+        id: 5,
         title: "Green Zone",
         type: "Backend",
         contribution: true,
@@ -239,7 +149,7 @@ export const projects = [
         demo: ""
     },
     {
-        id: 12,
+        id: 6,
         title: "Stadium Eye",
         type: "Backend",
         contribution: false,
@@ -254,7 +164,7 @@ export const projects = [
         demo: ""
     },
     {
-        id: 13,
+        id: 7,
         title: "Neuron Wave",
         type: "Backend",
         contribution: false,
@@ -269,7 +179,7 @@ export const projects = [
         demo: ""
     },
     {
-        id: 14,
+        id: 8,
         title: "Chat App",
         type: "Full Stack",
         contribution: false,
@@ -284,7 +194,7 @@ export const projects = [
         demo: "https://drive.google.com/file/d/1VgwyLVsXeckYUY-6dWpfz4xcr9f1OYys/view?usp=sharing"
     },
     {
-        id: 15,
+        id: 9,
         title: "(MedCare) Clinic Management System",
         type: "Full Stack",
         contribution: false,
@@ -298,15 +208,16 @@ export const projects = [
             assets.express,
             assets.postgresql,
             assets.prisma,
+            assets.react,
+            assets.tailwind,
             assets.javascript,
             assets.firebase,
             assets.jwt
         ],
         github: "https://github.com/seif-el-sayed1/MedCare_Backend",
-        link: "",
-        demo: ""
+        link: "https://medcare-nu.vercel.app/",
+        demo: "https://drive.google.com/file/d/1rPR4l1UCD2EA6Ko-nLkcDcmBL5qSHD89/view?usp=sharing"
     }
-
 ];
 
 export const aboutMe = [
